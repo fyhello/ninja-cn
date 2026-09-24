@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "path": "data/sources/native-translations/game-cc3ed32fa4fb2824fd8b70837f62fef318328965181c774899435a9c180618ba.json.gz",
+  "sha256": "cc3ed32fa4fb2824fd8b70837f62fef318328965181c774899435a9c180618ba",
+  "origin": {
+    "collector": "tools/native-translations/collect.mjs",
+    "review_sha256": "9bbd2f240281ce97aa29a1f6940d761146d5197ff5f5551739c46ce0c5665d2c",
+    "review_path": "data/sources/native-translations/review-9bbd2f240281ce97aa29a1f6940d761146d5197ff5f5551739c46ce0c5665d2c.json.gz"
+  }
+}

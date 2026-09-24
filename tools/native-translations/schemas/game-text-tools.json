@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "release": "https://github.com/zao/ooz/releases/tag/v0.2.4",
+  "files": {
+    "bun_extract_file.exe": "d96f570fc4f3fcc90e8e65174afe3a1e65a32fb8be28b1ead515dad8393e5659",
+    "libbun.dll": "a883fbc5977fee9cf3f14c0531101042f593860158baed9025d4dac3eb20c189",
+    "libooz.dll": "473d94ec899e00e30e4b360c3e9d3b8e949d5a3ae6e962b0f090ba439249c7d7"
+  }
+}

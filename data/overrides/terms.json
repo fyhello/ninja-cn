@@ -1,0 +1,920 @@
+{
+  "Liminal Coil": {
+    "zh-CN": "边界线圈",
+    "zh-TW": "邊界線圈"
+  },
+  "Dusk Keep": {
+    "zh-CN": "暮色要塞",
+    "zh-TW": "暮色要塞"
+  },
+  "Charm": {
+    "zh-CN": "咒符",
+    "zh-TW": "咒符"
+  },
+  "Talisman": {
+    "zh-CN": "魔符",
+    "zh-TW": "魔符"
+  },
+  "SEARCH BY": {
+    "zh-CN": "搜索条件",
+    "zh-TW": "搜尋條件"
+  },
+  "PROPERTIES": {
+    "zh-CN": "基础属性",
+    "zh-TW": "基礎屬性"
+  },
+  "PSEUDO": {
+    "zh-CN": "综合属性",
+    "zh-TW": "綜合屬性"
+  },
+  "AUGMENT": {
+    "zh-CN": "附魔/符文",
+    "zh-TW": "附魔/符文"
+  },
+  "EXPLICIT": {
+    "zh-CN": "显式词缀",
+    "zh-TW": "顯式詞綴"
+  },
+  "IMPLICIT": {
+    "zh-CN": "基底词缀",
+    "zh-TW": "基底詞綴"
+  },
+  "SOCKETED ITEMS": {
+    "zh-CN": "镶嵌物",
+    "zh-TW": "鑲嵌物"
+  },
+  "COLLAPSE LISTINGS BY ACCOUNT": {
+    "zh-CN": "按账号折叠物品",
+    "zh-TW": "按帳號摺疊物品"
+  },
+  "Collapse listings by account": {
+    "zh-CN": "按账号折叠物品",
+    "zh-TW": "按帳號摺疊物品"
+  },
+  "LISTED": {
+    "zh-CN": "上架时间",
+    "zh-TW": "上架時間"
+  },
+  "Listed": {
+    "zh-CN": "上架时间",
+    "zh-TW": "上架時間"
+  },
+  "SALE TYPE": {
+    "zh-CN": "交易类型",
+    "zh-TW": "交易類型"
+  },
+  "Sale Type": {
+    "zh-CN": "交易类型",
+    "zh-TW": "交易類型"
+  },
+  "GOLD FEE": {
+    "zh-CN": "手续费",
+    "zh-TW": "手續費"
+  },
+  "Gold Fee": {
+    "zh-CN": "手续费",
+    "zh-TW": "手續費"
+  },
+  "BUYOUT PRICE": {
+    "zh-CN": "一口价",
+    "zh-TW": "一口價"
+  },
+  "Buyout Price": {
+    "zh-CN": "一口价",
+    "zh-TW": "一口價"
+  },
+  "EXALTED ORB EQUIVALENT": {
+    "zh-CN": "等价崇高石",
+    "zh-TW": "等價崇高石"
+  },
+  "DIVINE ORB EQUIVALENT": {
+    "zh-CN": "等价神圣石",
+    "zh-TW": "等價神聖石"
+  },
+  "CHAOS ORB EQUIVALENT": {
+    "zh-CN": "等价混沌石",
+    "zh-TW": "等價混沌石"
+  },
+  "BUYOUT OR FIXED PRICE": {
+    "zh-CN": "一口价或固定价格",
+    "zh-TW": "一口價或固定價格"
+  },
+  "ANY TIME": {
+    "zh-CN": "任意时间",
+    "zh-TW": "任意時間"
+  },
+  "ENTER ACCOUNT NAME...": {
+    "zh-CN": "输入卖家账号...",
+    "zh-TW": "輸入賣家帳號..."
+  },
+  "Enter account name...": {
+    "zh-CN": "输入卖家账号...",
+    "zh-TW": "輸入賣家帳號..."
+  },
+  "ALLOCATES": {
+    "zh-CN": "配置",
+    "zh-TW": "配置"
+  },
+  "Allocates": {
+    "zh-CN": "配置",
+    "zh-TW": "配置"
+  },
+  "Dread Collar": {
+    "zh-CN": "恐慌领符",
+    "zh-TW": "恐慌領符"
+  },
+  "Thaumaturgic Generator": {
+    "zh-CN": "奇术发生器",
+    "zh-TW": "奇術發生器"
+  },
+  "Zarokh's Gift": {
+    "zh-CN": "扎洛卡之赠",
+    "zh-TW": "扎洛卡之贈"
+  },
+  "Barbaric Strength": {
+    "zh-CN": "蛮族之力",
+    "zh-TW": "蠻族之力"
+  },
+  "+#% to Maximum Quality": {
+    "zh-CN": "+#% 最大品质",
+    "zh-TW": "+#% 最大品質"
+  },
+  "Allocates #": {
+    "zh-CN": "分配 #",
+    "zh-TW": "分配 #"
+  },
+  "Rapture": {
+    "zh-CN": "狂喜",
+    "zh-TW": "狂喜"
+  },
+  "Pendant": {
+    "zh-CN": "领饰",
+    "zh-TW": "領飾"
+  },
+  "Absent Amulet": {
+    "zh-CN": "失神项链",
+    "zh-TW": "失神項鍊"
+  },
+  "Bonded": {
+    "zh-CN": "羁绊",
+    "zh-TW": "羈絆"
+  },
+  "unmatched": {
+    "zh-CN": "未匹配",
+    "zh-TW": "未匹配"
+  },
+  "pseudo": {
+    "zh-CN": "综合",
+    "zh-TW": "綜合"
+  },
+  "local": {
+    "zh-CN": "本地",
+    "zh-TW": "本地"
+  },
+  "total Chaos Resistance": {
+    "zh-CN": "混沌抗性总和",
+    "zh-TW": "混沌抗性總和"
+  },
+  "total Elemental Resistance": {
+    "zh-CN": "元素抗性总和",
+    "zh-TW": "元素抗性總和"
+  },
+  "total maximum Life": {
+    "zh-CN": "生命上限总和",
+    "zh-TW": "生命上限總和"
+  },
+  "total increased Movement Speed": {
+    "zh-CN": "移动速度提高总和",
+    "zh-TW": "移動速度提高總和"
+  },
+  "Str": {
+    "zh-CN": "力量",
+    "zh-TW": "力量"
+  },
+  "Dex": {
+    "zh-CN": "敏捷",
+    "zh-TW": "敏捷"
+  },
+  "Int": {
+    "zh-CN": "智慧",
+    "zh-TW": "智慧"
+  },
+  "March": {
+    "zh-CN": "三月",
+    "zh-TW": "三月"
+  },
+  "Can tattoo Runes onto your body, gaining additional Rune-only sockets:\n• 1 Helmet socket\n• 2 Body Armour sockets\n• 1 Gloves socket\n• 1 Boots socket": {
+    "zh-CN": "可将符文文身于身体上，获得额外的 仅限符文的插槽： • 1 个头盔插槽 • 2 个胸甲插槽 • 1 个手套插槽 • 1 个鞋子插槽",
+    "zh-TW": "可將符文紋身於身體上，獲得額外的 僅限符文的插槽： • 1 個頭盔插槽 • 2 個胸甲插槽 • 1 個手套插槽 • 1 個鞋子插槽"
+  },
+  "Can tattoo Runes onto your body,  gaining additional Rune-only sockets:\n• 1 Helmet socket\n• 2 Body Armour sockets\n• 1 Gloves socket\n• 1 Boots socket": {
+    "zh-CN": "可将符文文身于身体上，获得额外的 仅限符文的插槽： • 1 个头盔插槽 • 2 个胸甲插槽 • 1 个手套插槽 • 1 个鞋子插槽",
+    "zh-TW": "可將符文紋身於身體上，獲得額外的 僅限符文的插槽： • 1 個頭盔插槽 • 2 個胸甲插槽 • 1 個手套插槽 • 1 個鞋子插槽"
+  },
+  "Bloom": {
+    "zh-CN": "光晕效果",
+    "zh-TW": "光暈效果"
+  },
+  "Passives in Radius of {0} can be Allocated": {
+    "zh-CN": "{0}范围内的天赋可以在",
+    "zh-TW": "{0}範圍內的天賦可以在"
+  },
+  "Wildsurge Incantation": {
+    "zh-CN": "狂野涌动咒语",
+    "zh-TW": "野性湧動之咒"
+  },
+  "+{0} to Level of all {1} Skills": {
+    "zh-CN": "所有{1}技能等级 +{0}",
+    "zh-TW": "全部{1}技能等級 +{0}"
+  },
+  "+# to Level of all {0} Skills": {
+    "zh-CN": "所有{0}技能等级 +#",
+    "zh-TW": "全部{0}技能等級 +#"
+  },
+  "Adds {0} to {1} {2} Damage": {
+    "zh-CN": "附加 {0} - {1} 基础{2}伤害",
+    "zh-TW": "附加 {0} - {1} 基礎{2}傷害"
+  },
+  "Notable Passive Skills in Radius also grant {0}": {
+    "zh-CN": "范围内的核心天赋同时提供 {0}",
+    "zh-TW": "範圍內的核心天賦同時提供 {0}"
+  },
+  "9% increased Critical Strike Damage Multiplier for Attack Damage": {
+    "zh-CN": "攻击伤害的暴击伤害加成 9%",
+    "zh-TW": "攻擊傷害的暴擊傷害加成 9%"
+  },
+  "{0}% increased Critical Strike Damage Multiplier for Attack Damage": {
+    "zh-CN": "攻击伤害的暴击伤害加成 {0}%",
+    "zh-TW": "攻擊傷害的暴擊傷害加成 {0}%"
+  },
+  "Consume all Rage when Shapeshifting to Human form to recover 1% of maximum life per Rage Consumed": {
+    "zh-CN": "变形为人类时消耗所有怒火，每消耗 1 点怒火恢复生命上限的 1%",
+    "zh-TW": "變形為人類時消耗所有怒火，每消耗 1 點怒火恢復生命上限的 1%"
+  },
+  "Consume all Rage when Shapeshifting to Human form to recover {0}% of maximum life per Rage Consumed": {
+    "zh-CN": "变形为人类时消耗所有怒火，每消耗 1 点怒火恢复生命上限的 {0}%",
+    "zh-TW": "變形為人類時消耗所有怒火，每消耗 1 點怒火恢復生命上限的 {0}%"
+  },
+  "{0}% increased Charm Charges gained": {
+    "zh-CN": "获得的咒符充能提高 {0}%",
+    "zh-TW": "獲得的咒符充能提高 {0}%"
+  },
+  "Support Gem Requirements: {0}": {
+    "zh-CN": "辅助宝石需求：{0}",
+    "zh-TW": "輔助寶石需求：{0}"
+  },
+  "+{0} Str ({1})": {
+    "zh-CN": "+{0} 力量 ({1})",
+    "zh-TW": "+{0} 力量 ({1})"
+  },
+  "Corrupt": {
+    "zh-CN": "腐化",
+    "zh-TW": "腐化"
+  },
+  "Corrupted": {
+    "zh-CN": "腐化",
+    "zh-TW": "腐化"
+  },
+  "Apocalypse": {
+    "zh-CN": "天启",
+    "zh-TW": "天啟"
+  },
+  "Passives in Radius of {0} can be Allocated without being connected to your tree": {
+    "zh-CN": "{0}范围内的天赋可以在 未连结至天赋树的情况下配置",
+    "zh-TW": "{0}範圍內的天賦可以在 未連結至天賦樹的情況下配置"
+  },
+  "+{0} Dex ({1})": {
+    "zh-CN": "+{0} 敏捷 ({1})",
+    "zh-TW": "+{0} 敏捷 ({1})"
+  },
+  "+12 Dex (12)": {
+    "zh-CN": "+12 敏捷 (12)",
+    "zh-TW": "+12 敏捷 (12)"
+  },
+  "+{0} Int ({1})": {
+    "zh-CN": "+{0} 智慧 ({1})",
+    "zh-TW": "+{0} 智慧 ({1})"
+  },
+  "Can tattoo Runes onto your body, gaining": {
+    "zh-CN": "可将符文文身于身体上，获得额外的",
+    "zh-TW": "可將符文紋身於身體上，獲得額外的"
+  },
+  "additional Rune-only sockets:": {
+    "zh-CN": "仅限符文的插槽：",
+    "zh-TW": "僅限符文的插槽："
+  },
+  "• {0} Helmet socket": {
+    "zh-CN": "• {0} 个头盔插槽",
+    "zh-TW": "• {0} 個頭盔插槽"
+  },
+  "• {0} Body Armour sockets": {
+    "zh-CN": "• {0} 个胸甲插槽",
+    "zh-TW": "• {0} 個胸甲插槽"
+  },
+  "• {0} Gloves socket": {
+    "zh-CN": "• {0} 个手套插槽",
+    "zh-TW": "• {0} 個手套插槽"
+  },
+  "• {0} Boots socket": {
+    "zh-CN": "• {0} 个鞋子插槽",
+    "zh-TW": "• {0} 個鞋子插槽"
+  },
+  "Corruption": {
+    "zh-CN": "腐化",
+    "zh-TW": "腐化"
+  },
+  "Radius": {
+    "zh-CN": "范围",
+    "zh-TW": "範圍"
+  },
+  "Radius:": {
+    "zh-CN": "范围：",
+    "zh-TW": "範圍："
+  },
+  "Requirements": {
+    "zh-CN": "需求",
+    "zh-TW": "需求"
+  },
+  "Requirements:": {
+    "zh-CN": "需求：",
+    "zh-TW": "需求："
+  },
+  "Adds {0} to {1} Fire Damage": {
+    "zh-CN": "附加 {0} - {1} 基础火焰伤害",
+    "zh-TW": "附加 {0} - {1} 基礎火焰傷害"
+  },
+  "可将符文文身于身体上，获得额外的 仅限符文的插槽： • -only sockets:\n• 1 Helmet socket\n• 2 Body Armour sockets\n• 1 Gloves socket\n• 1 Boots socket 个头盔插槽 • 2 个胸甲插槽 • 1 个手套插槽 • 1 个鞋子插槽": {
+    "zh-CN": "可将符文文身于身体上，获得额外的 仅限符文的插槽： • 1 个头盔插槽 • 2 个胸甲插槽 • 1 个手套插槽 • 1 个鞋子插槽",
+    "zh-TW": "可將符文紋身於身體上，獲得額外的 僅限符文的插槽： • 1 個頭盔插槽 • 2 個胸甲插槽 • 1 個手套插槽 • 1 個鞋子插槽"
+  },
+  "Requires": {
+    "zh-CN": "需求",
+    "zh-TW": "需求"
+  },
+  "Requires:": {
+    "zh-CN": "需求：",
+    "zh-TW": "需求："
+  },
+  "+{0}% of Armour also applies to Fire Damage": {
+    "zh-CN": "+{0}% 的护甲同样作用于火焰伤害",
+    "zh-TW": "+{0}% 的護甲同樣作用於火焰傷害"
+  },
+  "{0}% of Armour also applies to Fire Damage": {
+    "zh-CN": "{0}% 的护甲同样作用于火焰伤害",
+    "zh-TW": "{0}% 的護甲同樣作用於火焰傷害"
+  },
+  "Consumes {0} of {1} Charges on use": {
+    "zh-CN": "每次使用会从 {1} 充能次数中消耗 {0} 次",
+    "zh-TW": "每次使用會從 {1} 充能次數中消耗 {0} 次"
+  },
+  "Item Requirements: Level {0}, {1} Str": {
+    "zh-CN": "物品需求：等级 {0}, {1}力量",
+    "zh-TW": "物品需求：等級 {0}, {1}力量"
+  },
+  "Recovers {0} Life over {1} Seconds": {
+    "zh-CN": "{1} 秒内回复 {0} 生命",
+    "zh-TW": "{1} 秒內回復 {0} 生命"
+  },
+  "Small Passive Skills in Radius also grant {0}": {
+    "zh-CN": "范围内的小型天赋同时提供 {0}",
+    "zh-TW": "範圍內的小型天賦同時提供 {0}"
+  },
+  "Notable Passive Skills in Radius also grant {0}": {
+    "zh-CN": "范围内的核心天赋同时提供 {0}",
+    "zh-TW": "範圍內的核心天賦同時提供 {0}"
+  },
+  "Level": {
+    "zh-CN": "等级",
+    "zh-TW": "等級",
+    "type": "ui_label"
+  },
+  "Str": {
+    "zh-CN": "力量",
+    "zh-TW": "力量",
+    "type": "ui_label"
+  },
+  "Dex": {
+    "zh-CN": "敏捷",
+    "zh-TW": "敏捷",
+    "type": "ui_label"
+  },
+  "Int": {
+    "zh-CN": "智慧",
+    "zh-TW": "智慧",
+    "type": "ui_label"
+  },
+  "Strength": {
+    "zh-CN": "力量",
+    "zh-TW": "力量",
+    "type": "ui_label"
+  },
+  "Dexterity": {
+    "zh-CN": "敏捷",
+    "zh-TW": "敏捷",
+    "type": "ui_label"
+  },
+  "Intelligence": {
+    "zh-CN": "智慧",
+    "zh-TW": "智慧",
+    "type": "ui_label"
+  },
+  "Quality": {
+    "zh-CN": "品质",
+    "zh-TW": "品質",
+    "type": "ui_label"
+  },
+  "Trade": {
+    "zh-CN": "交易",
+    "zh-TW": "交易",
+    "type": "ui_label"
+  },
+  "Modifiers": {
+    "zh-CN": "词缀",
+    "zh-TW": "詞綴",
+    "type": "ui_label"
+  },
+  "Very Large": {
+    "zh-CN": "极大",
+    "zh-TW": "極大",
+    "type": "ui_label"
+  },
+  "Massive": {
+    "zh-CN": "巨大",
+    "zh-TW": "巨大",
+    "type": "ui_label"
+  },
+  "Large": {
+    "zh-CN": "大",
+    "zh-TW": "大",
+    "type": "ui_label"
+  },
+  "Medium": {
+    "zh-CN": "中",
+    "zh-TW": "中",
+    "type": "ui_label"
+  },
+  "Small": {
+    "zh-CN": "小",
+    "zh-TW": "小",
+    "type": "ui_label"
+  },
+  "Seconds": {
+    "zh-CN": "秒",
+    "zh-TW": "秒",
+    "type": "ui_label"
+  },
+  "Supports Skills which create fissures in the ground, causing them to create many additional fissures at the cost of damage, speed and area of effect.": {
+    "zh-CN": "辅助在地上产生裂缝的技能，使其产生大量额外的裂缝，但会牺牲伤害、攻击速度和效果范围。",
+    "zh-TW": "輔助在地上產生裂縫的技能，使其產生大量額外的裂縫，但會犧牲傷害、攻擊速度和效果範圍。"
+  },
+  "Maelström": {
+    "zh-CN": "魔暴",
+    "zh-TW": "魔暴",
+    "type": "unique_item"
+  },
+  "Maelstrom": {
+    "zh-CN": "魔暴",
+    "zh-TW": "魔暴",
+    "type": "unique_item"
+  },
+  "25% more Skill Speed while Off Hand is empty and you have a One Handed Martial Weapon equipped in your Main Hand": {
+    "zh-CN": "副手为空，且主手装备一把单手战斗武器时\n技能速度总增 25%。",
+    "zh-TW": "副手為空，且主手裝備一把單手戰鬥武器時\n技能速度總增 25%。"
+  },
+  "25% more Skill Speed while Off Hand is empty and you have\na One Handed Martial Weapon equipped in your Main Hand": {
+    "zh-CN": "副手为空，且主手装备一把单手战斗武器时\n技能速度总增 25%。",
+    "zh-TW": "副手為空，且主手裝備一把單手戰鬥武器時\n技能速度總增 25%。"
+  },
+  "25% more Skill Speed while Off Hand is empty and you have a One-Handed Martial Weapon equipped in your Main Hand": {
+    "zh-CN": "副手为空，且主手装备一把单手战斗武器时\n技能速度总增 25%。",
+    "zh-TW": "副手為空，且主手裝備一把單手戰鬥武器時\n技能速度總增 25%。"
+  },
+  "25% more Skill Speed while Off Hand is empty and you have\na One-Handed Martial Weapon equipped in your Main Hand": {
+    "zh-CN": "副手为空，且主手装备一把单手战斗武器时\n技能速度总增 25%。",
+    "zh-TW": "副手為空，且主手裝備一把單手戰鬥武器時\n技能速度總增 25%。"
+  },
+  "Valley of the Titans": {
+    "zh-CN": "泰坦山谷",
+    "zh-TW": "泰坦山谷"
+  },
+  "The Clear Fell": {
+    "zh-CN": "伐木场",
+    "zh-TW": "伐木場"
+  },
+  "The Riverbank": {
+    "zh-CN": "河岸",
+    "zh-TW": "河岸"
+  },
+  "The Ardura Caravan": {
+    "zh-CN": "阿杜拉商队",
+    "zh-TW": "阿杜拉商隊"
+  },
+  "The Azak Bog": {
+    "zh-CN": "阿扎克沼泽",
+    "zh-TW": "阿扎克沼澤"
+  },
+  "The Blackwood": {
+    "zh-CN": "黑木林",
+    "zh-TW": "黑木林"
+  },
+  "The Dreadnought": {
+    "zh-CN": "无畏号",
+    "zh-TW": "無畏號"
+  },
+  "The Spires of Despair": {
+    "zh-CN": "绝望尖塔",
+    "zh-TW": "絕望尖塔"
+  },
+  "Gloves you equip have their Base Type transformed to Fists of Stone while equipped, and their Explicit Modifiers are transformed into more powerful related Modifiers": {
+    "zh-CN": "你装备的手套会在已装备期间将其基础类型转化为石拳，并将其显式词缀转化为更强力的相关词缀。",
+    "zh-TW": "你裝備的手套會在已裝備期間將其基礎類型轉化為石拳，並將其顯式詞綴轉化為更強力的相關詞綴。"
+  },
+  "Gloves you equip have their Base Type transformed to Fists of Stone while equipped, and\ntheir Explicit Modifiers are transformed into more powerful related Modifiers": {
+    "zh-CN": "你装备的手套会在已装备期间将其基础类型转化为石拳，并\n将其显式词缀转化为更强力的相关词缀。",
+    "zh-TW": "你裝備的手套會在已裝備期間將其基礎類型轉化為石拳，並\n將其顯式詞綴轉化為更強力的相關詞綴。"
+  },
+  "The Venom Crypts": {
+    "zh-CN": "毒液地穴",
+    "zh-TW": "毒液地穴"
+  },
+  "Venom Draught": {
+    "zh-CN": "毒液药剂",
+    "zh-TW": "毒液藥劑"
+  },
+  "Abandoned Prison": {
+    "zh-CN": "废弃监牢",
+    "zh-TW": "廢棄監牢"
+  },
+  "Goddess of Justice": {
+    "zh-CN": "正义女神",
+    "zh-TW": "正義女神"
+  },
+  "Whakapanu Island": {
+    "zh-CN": "瓦卡帕努岛",
+    "zh-TW": "瓦卡帕努島"
+  },
+  "Great White One": {
+    "zh-CN": "巨白之物",
+    "zh-TW": "巨白之物"
+  },
+  "Eye of Hinekora": {
+    "zh-CN": "希奈蔻拉之眼",
+    "zh-TW": "希奈蔻拉之眼"
+  },
+  "Navali's Rest": {
+    "zh-CN": "纳瓦莉之息",
+    "zh-TW": "納瓦莉之息"
+  },
+  "Halls of the Dead": {
+    "zh-CN": "死者之殿",
+    "zh-TW": "死者之殿"
+  },
+  "Ngamahu's Test": {
+    "zh-CN": "恩格摩呼的试炼",
+    "zh-TW": "恩格摩呼的試煉"
+  },
+  "Taskmaster's Trophies": {
+    "zh-CN": "监工战利品",
+    "zh-TW": "監工戰利品"
+  },
+  "Kraityn's Letter": {
+    "zh-CN": "克雷顿的信件",
+    "zh-TW": "克雷頓的信件"
+  },
+  "Ashen Trail": {
+    "zh-CN": "灰烬之路",
+    "zh-TW": "灰燼之路"
+  },
+  "The Blind Beast": {
+    "zh-CN": "盲眼巨兽",
+    "zh-TW": "盲眼巨獸"
+  },
+  "Tree of Suffering": {
+    "zh-CN": "苦难之树",
+    "zh-TW": "苦難之樹"
+  },
+  "The Slithering Death": {
+    "zh-CN": "游荡之死",
+    "zh-TW": "游蕩之死"
+  },
+  "Aggorat's Crown": {
+    "zh-CN": "阿戈拉特之冠",
+    "zh-TW": "阿戈拉特之冠"
+  },
+  "Lord of the Pit": {
+    "zh-CN": "深坑之王",
+    "zh-TW": "深坑之王"
+  },
+  "Titan's Heart": {
+    "zh-CN": "泰坦之心",
+    "zh-TW": "泰坦之心"
+  },
+  "Missing {0}% increased maximum Mana": {
+    "zh-CN": "未获取 {0}% 最大魔力提高",
+    "zh-TW": "未獲取 {0}% 最大魔力提高"
+  },
+  "Missing {0}% increased maximum Life": {
+    "zh-CN": "未获取 {0}% 生命上限提高",
+    "zh-TW": "未獲取 {0}% 生命上限提高"
+  },
+  "Used automatically when condition is met. Can only hold charges while in belt. Refill at Wells or by killing monsters.": {
+    "zh-CN": "满足条件时自动使用。仅在腰带中时可以储存充能。在水井处或通过击杀怪物进行补充。",
+    "zh-TW": "滿足條件時自動使用。僅在腰帶中時可以儲存充能。在水井處或通過擊殺怪物進行補充。"
+  },
+  "Modifiers to Cooldown Recovery Rate also apply to Ghost Shroud gain frequency": {
+    "zh-CN": "修正冷却回复速度的词缀也作用于获得幽魂缠身的频率",
+    "zh-TW": "修正冷卻回復速度的詞綴也作用於獲得幽魂纏身的頻率"
+  },
+  "Item Requirements: {0}": {
+    "zh-CN": "物品需求：{0}",
+    "zh-TW": "物品需求：{0}"
+  },
+  "+ ADD STAT FILTER": {
+    "zh-CN": "+ 添加词缀筛选",
+    "zh-TW": "+ 添加詞綴篩選"
+  },
+  "+ Add Stat Filter": {
+    "zh-CN": "+ 添加词缀筛选",
+    "zh-TW": "+ 添加詞綴篩選"
+  },
+  "Add Stat Filter": {
+    "zh-CN": "添加词缀筛选",
+    "zh-TW": "添加詞綴篩選"
+  },
+  "STAT FILTERS": {
+    "zh-CN": "词缀筛选",
+    "zh-TW": "詞綴篩選"
+  },
+  "Stat Filters": {
+    "zh-CN": "词缀筛选",
+    "zh-TW": "詞綴篩選"
+  },
+  "+ ADD STAT GROUP": {
+    "zh-CN": "+ 添加词缀组",
+    "zh-TW": "+ 添加詞綴組"
+  },
+  "+ Add Stat Group": {
+    "zh-CN": "+ 添加词缀组",
+    "zh-TW": "+ 添加詞綴組"
+  },
+  "Add Stat Group": {
+    "zh-CN": "添加词缀组",
+    "zh-TW": "添加詞綴組"
+  },
+  "STAT GROUPS": {
+    "zh-CN": "词缀组",
+    "zh-TW": "詞綴組"
+  },
+  "Stat Groups": {
+    "zh-CN": "词缀组",
+    "zh-TW": "詞綴組"
+  },
+  "AND": {
+    "zh-CN": "与 (AND)",
+    "zh-TW": "與 (AND)"
+  },
+  "NOT": {
+    "zh-CN": "非 (NOT)",
+    "zh-TW": "非 (NOT)"
+  },
+  "IF": {
+    "zh-CN": "如果 (IF)",
+    "zh-TW": "如果 (IF)"
+  },
+  "COUNT": {
+    "zh-CN": "计数 (COUNT)",
+    "zh-TW": "計數 (COUNT)"
+  },
+  "WEIGHTED SUM": {
+    "zh-CN": "加权和",
+    "zh-TW": "加權和"
+  },
+  "WEIGHTED SUM v2": {
+    "zh-CN": "加权和 v2",
+    "zh-TW": "加權和 v2"
+  },
+  "Weighted Sum": {
+    "zh-CN": "加权和",
+    "zh-TW": "加權和"
+  },
+  "Weighted Sum v2": {
+    "zh-CN": "加权和 v2",
+    "zh-TW": "加權和 v2"
+  },
+  "CRUCIBLE PASSIVE TREE PATH": {
+    "zh-CN": "熔火天赋树路径",
+    "zh-TW": "熔火天賦樹路徑"
+  },
+  "Crucible Passive Tree Path": {
+    "zh-CN": "熔火天赋树路径",
+    "zh-TW": "熔火天賦樹路徑"
+  },
+  "MERCENARY SKILL GROUP": {
+    "zh-CN": "雇佣兵技能组",
+    "zh-TW": "僱傭兵技能組"
+  },
+  "Mercenary Skill Group": {
+    "zh-CN": "雇佣兵技能组",
+    "zh-TW": "僱傭兵技能組"
+  },
+  "+ ACTIVATE LIVE SEARCH": {
+    "zh-CN": "+ 开启实时搜索",
+    "zh-TW": "+ 開啟即時搜尋"
+  },
+  "+ Activate Live Search": {
+    "zh-CN": "+ 开启实时搜索",
+    "zh-TW": "+ 開啟即時搜尋"
+  },
+  "ACTIVATE LIVE SEARCH": {
+    "zh-CN": "开启实时搜索",
+    "zh-TW": "開啟即時搜尋"
+  },
+  "Activate Live Search": {
+    "zh-CN": "开启实时搜索",
+    "zh-TW": "開啟即時搜尋"
+  },
+  "PAUSE LIVE SEARCH": {
+    "zh-CN": "暂停实时搜索",
+    "zh-TW": "暫停即時搜尋"
+  },
+  "Pause Live Search": {
+    "zh-CN": "暂停实时搜索",
+    "zh-TW": "暫停即時搜尋"
+  },
+  "Verified": {
+    "zh-CN": "已验证",
+    "zh-TW": "已驗證"
+  },
+  "ASKING PRICE:": {
+    "zh-CN": "要价:",
+    "zh-TW": "要價:"
+  },
+  "Asking Price:": {
+    "zh-CN": "要价:",
+    "zh-TW": "要價:"
+  },
+  "Asking Price": {
+    "zh-CN": "要价",
+    "zh-TW": "要價"
+  },
+  "Travel to Hideout": {
+    "zh-CN": "前往藏身处",
+    "zh-TW": "前往藏身處"
+  },
+  "Ignore Player": {
+    "zh-CN": "屏蔽玩家",
+    "zh-TW": "屏蔽玩家"
+  },
+  "Direct Whisper": {
+    "zh-CN": "直接私聊",
+    "zh-TW": "直接私聊"
+  },
+  "Whisper": {
+    "zh-CN": "私聊",
+    "zh-TW": "私聊"
+  },
+  "Copy Whisper": {
+    "zh-CN": "复制私聊信息",
+    "zh-TW": "複製私聊訊息"
+  },
+  "Fee:": {
+    "zh-CN": "手续费:",
+    "zh-TW": "手續費:"
+  },
+  "Stock:": {
+    "zh-CN": "存货:",
+    "zh-TW": "存貨:"
+  },
+  "SEARCH LISTED ITEMS": {
+    "zh-CN": "搜索上架物品",
+    "zh-TW": "搜尋上架物品"
+  },
+  "Search Listed Items": {
+    "zh-CN": "搜索上架物品",
+    "zh-TW": "搜尋上架物品"
+  },
+  "BULK ITEM EXCHANGE": {
+    "zh-CN": "大宗通货交易",
+    "zh-TW": "大宗通貨交易"
+  },
+  "Bulk Item Exchange": {
+    "zh-CN": "大宗通货交易",
+    "zh-TW": "大宗通貨交易"
+  },
+  "SEARCH ITEMS...": {
+    "zh-CN": "搜索物品...",
+    "zh-TW": "搜尋物品..."
+  },
+  "Search Items...": {
+    "zh-CN": "搜索物品...",
+    "zh-TW": "搜尋物品..."
+  },
+  "Search Items": {
+    "zh-CN": "搜索物品",
+    "zh-TW": "搜尋物品"
+  },
+  "SEARCH": {
+    "zh-CN": "搜索",
+    "zh-TW": "搜尋"
+  },
+  "Search": {
+    "zh-CN": "搜索",
+    "zh-TW": "搜尋"
+  },
+  "CLEAR": {
+    "zh-CN": "清空",
+    "zh-TW": "清空"
+  },
+  "Clear": {
+    "zh-CN": "清空",
+    "zh-TW": "清空"
+  },
+  "SHOW FILTERS": {
+    "zh-CN": "显示筛选",
+    "zh-TW": "顯示篩選"
+  },
+  "Show Filters": {
+    "zh-CN": "显示筛选",
+    "zh-TW": "顯示篩選"
+  },
+  "HIDE FILTERS": {
+    "zh-CN": "隐藏筛选",
+    "zh-TW": "隱藏篩選"
+  },
+  "Hide Filters": {
+    "zh-CN": "隐藏筛选",
+    "zh-TW": "隱藏篩選"
+  },
+  "HISTORY": {
+    "zh-CN": "历史记录",
+    "zh-TW": "歷史記錄"
+  },
+  "History": {
+    "zh-CN": "历史记录",
+    "zh-TW": "歷史記錄"
+  },
+  "SETTINGS": {
+    "zh-CN": "设置",
+    "zh-TW": "設定"
+  },
+  "Settings": {
+    "zh-CN": "设置",
+    "zh-TW": "設定"
+  },
+  "ABOUT": {
+    "zh-CN": "关于",
+    "zh-TW": "關於"
+  },
+  "About": {
+    "zh-CN": "关于",
+    "zh-TW": "關於"
+  },
+  "LOG OUT": {
+    "zh-CN": "登出",
+    "zh-TW": "登出"
+  },
+  "Log Out": {
+    "zh-CN": "登出",
+    "zh-TW": "登出"
+  },
+  "CONTACT SUPPORT": {
+    "zh-CN": "联系客服",
+    "zh-TW": "聯繫客服"
+  },
+  "Contact Support": {
+    "zh-CN": "联系客服",
+    "zh-TW": "聯繫客服"
+  },
+  "BACK TO MAIN SITE": {
+    "zh-CN": "返回主站",
+    "zh-TW": "返回主站"
+  },
+  "Back to Main Site": {
+    "zh-CN": "返回主站",
+    "zh-TW": "返回主站"
+  },
+  "ITEM LEVEL:": {
+    "zh-CN": "物品等级：",
+    "zh-TW": "物品等級："
+  },
+  "Item Level:": {
+    "zh-CN": "物品等级：",
+    "zh-TW": "物品等級："
+  },
+  "Item Level": {
+    "zh-CN": "物品等级",
+    "zh-TW": "物品等級"
+  },
+  "Requires Level": {
+    "zh-CN": "需求等级",
+    "zh-TW": "需求等級"
+  },
+  "BONDED:": {
+    "zh-CN": "羁绊:",
+    "zh-TW": "羈絆:"
+  },
+  "Bonded:": {
+    "zh-CN": "羁绊:",
+    "zh-TW": "羈絆:"
+  }
+}

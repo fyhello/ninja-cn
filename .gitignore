@@ -1,0 +1,10 @@
+node_modules/
+.tmp_chrome_profile/
+dist/*.zip
+dist/POE-Ninja-*/
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.pyo

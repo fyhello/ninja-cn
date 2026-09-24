@@ -1,0 +1,1764 @@
+{
+  "schema_version": 1,
+  "source": {
+    "project": "pathofexile-dat schema",
+    "schema_version": 7,
+    "sha256": "0d0844dd3a049cb806cb9be6299e6427c86a8c48f355f3fe878100fe254d8688"
+  },
+  "tables": [
+    {
+      "name": "ActiveSkills",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "DisplayedName",
+          "type": "string"
+        },
+        {
+          "name": "Description",
+          "type": "string"
+        },
+        {
+          "name": "ActionType",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Icon_DDSFile",
+          "type": "string"
+        },
+        {
+          "name": "ActiveSkillTargetTypes",
+          "type": "enumrow",
+          "array": true
+        },
+        {
+          "name": "ActiveSkillTypes",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "WebsiteDescription",
+          "type": "string"
+        },
+        {
+          "name": "WebsiteImage",
+          "type": "string"
+        },
+        {
+          "name": "HideOnWebsite",
+          "type": "bool"
+        },
+        {
+          "name": "GrantedEffect",
+          "type": "string"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "SkillTotemId",
+          "type": "enumrow"
+        },
+        {
+          "name": "IsManuallyCasted",
+          "type": "bool"
+        },
+        {
+          "name": "Input_Stats",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "Output_Stats",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "MinionActiveSkillTypes",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "IsGem",
+          "type": "bool"
+        },
+        {
+          "name": "SecondarySkillSpecificStats",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "SkillMine",
+          "type": "i32"
+        },
+        {
+          "name": "AlternateSkillTargetingBehaviour",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "AIFile",
+          "type": "string"
+        },
+        {
+          "name": "StatContextFlags",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "ShapeShiftForm",
+          "type": "foreignrow"
+        },
+        {
+          "name": "VideoClip",
+          "type": "string"
+        },
+        {
+          "name": "CharacterAudioEvent",
+          "type": "foreignrow"
+        },
+        {
+          "name": "AiScript",
+          "type": "string"
+        },
+        {
+          "name": "AudioEvent",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "ShortDescription",
+          "type": "string"
+        },
+        {
+          "name": "StatDescriptionType",
+          "type": "i32"
+        },
+        {
+          "name": "StatDescription",
+          "type": "string"
+        },
+        {
+          "name": "WeaponRequirements",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "BaseItemTypes",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "ItemClass",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Width",
+          "type": "i32"
+        },
+        {
+          "name": "Height",
+          "type": "i32"
+        },
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "InheritsFrom",
+          "type": "string"
+        },
+        {
+          "name": "DropLevel",
+          "type": "i32"
+        },
+        {
+          "name": "FlavourText",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Implicit_Mods",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "SizeOnGround",
+          "type": "i32"
+        },
+        {
+          "name": "SoundEffect",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Tags",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "ModDomain",
+          "type": "enumrow"
+        },
+        {
+          "name": "ItemVisualIdentity",
+          "type": "foreignrow"
+        },
+        {
+          "name": "HASH32",
+          "type": "u32"
+        },
+        {
+          "name": "VendorRecipe_AchievementItems",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "Inflection",
+          "type": "string"
+        },
+        {
+          "name": "Equip_AchievementItem",
+          "type": "foreignrow"
+        },
+        {
+          "name": "IsCorrupted",
+          "type": "bool"
+        },
+        {
+          "name": "Identify_AchievementItems",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "IdentifyMagic_AchievementItems",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "FragmentBaseItemType",
+          "type": "row"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "UncutGemSoundEffect",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "Unmodifiable",
+          "type": "bool"
+        },
+        {
+          "name": "Achievement",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "ShopTag",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "array",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "array",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "array",
+          "array": true
+        }
+      ]
+    },
+    {
+      "name": "CharacterPanelStats",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "Text",
+          "type": "string"
+        },
+        {
+          "name": "StatsKeys1",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "CharacterPanelDescriptionModesKey",
+          "type": "foreignrow"
+        },
+        {
+          "name": "StatsKeys2",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "StatsKeys3",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "CharacterPanelTabsKey",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "i32",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": "StatsKeys4",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "StatsKeys5",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "StatsKeys6",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "i32"
+        }
+      ]
+    },
+    {
+      "name": "ClientStrings",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "Text",
+          "type": "string"
+        },
+        {
+          "name": "XBoxText",
+          "type": "string"
+        },
+        {
+          "name": "XBoxText2",
+          "type": "string"
+        },
+        {
+          "name": "HASH32",
+          "type": "u32"
+        },
+        {
+          "name": "PlaystationText",
+          "type": "string"
+        },
+        {
+          "name": null,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "ClientStrings2",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "Text",
+          "type": "string"
+        },
+        {
+          "name": "XBoxText",
+          "type": "string"
+        },
+        {
+          "name": "XBoxText2",
+          "type": "string"
+        },
+        {
+          "name": "HASH32",
+          "type": "u32"
+        },
+        {
+          "name": "PlaystationText",
+          "type": "string"
+        },
+        {
+          "name": null,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "FlavourText",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "HASH16",
+          "type": "u16"
+        },
+        {
+          "name": "Text",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "GemEffects",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "GrantedEffect",
+          "type": "foreignrow"
+        },
+        {
+          "name": "SupportText",
+          "type": "string"
+        },
+        {
+          "name": "SupportName",
+          "type": "string"
+        },
+        {
+          "name": "GemTags",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "Consumed_Mod",
+          "type": "foreignrow"
+        },
+        {
+          "name": "ItemColor",
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "AdditionalGrantedEffects",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "i32",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        }
+      ]
+    },
+    {
+      "name": "GemTags",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "LocalLevelStat",
+          "type": "foreignrow"
+        },
+        {
+          "name": "LocalQualityStat",
+          "type": "foreignrow"
+        },
+        {
+          "name": "GlobalSpellLevelStat",
+          "type": "foreignrow"
+        }
+      ]
+    },
+    {
+      "name": "ItemClasses",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "ItemClassCategory",
+          "type": "foreignrow"
+        },
+        {
+          "name": "RemovedIfLeavesArea",
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "array",
+          "array": true
+        },
+        {
+          "name": "IdentifyAchievements",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "AllocateToMapOwner",
+          "type": "bool"
+        },
+        {
+          "name": "AlwaysAllocate",
+          "type": "bool"
+        },
+        {
+          "name": "CanHaveVeiledMods",
+          "type": "bool"
+        },
+        {
+          "name": "PickedUpQuest",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": "AlwaysShow",
+          "type": "bool"
+        },
+        {
+          "name": "CanBeCorrupted",
+          "type": "bool"
+        },
+        {
+          "name": "CanHaveIncubators",
+          "type": "bool"
+        },
+        {
+          "name": "CanHaveInfluence",
+          "type": "bool"
+        },
+        {
+          "name": "CanBeDoubleCorrupted",
+          "type": "bool"
+        },
+        {
+          "name": "CanHaveAspects",
+          "type": "bool"
+        },
+        {
+          "name": "ItemStance",
+          "type": "foreignrow"
+        },
+        {
+          "name": "CanScourge",
+          "type": "bool"
+        },
+        {
+          "name": "CanUpgradeRarity",
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "ItemClassFlags",
+          "type": "i32",
+          "array": true
+        },
+        {
+          "name": "Unmodfiable",
+          "type": "bool"
+        },
+        {
+          "name": "CanBeFractured",
+          "type": "bool"
+        },
+        {
+          "name": "EquipAchievement",
+          "type": "foreignrow"
+        },
+        {
+          "name": "UsableInMapDevice",
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "name": "KeywordPopups",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "Term",
+          "type": "string"
+        },
+        {
+          "name": "Definition",
+          "type": "string"
+        },
+        {
+          "name": null,
+          "type": "string"
+        },
+        {
+          "name": null,
+          "type": "string"
+        },
+        {
+          "name": "ItemReference",
+          "type": "foreignrow"
+        },
+        {
+          "name": "ModReference",
+          "type": "foreignrow"
+        }
+      ]
+    },
+    {
+      "name": "Mods",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "HASH16",
+          "type": "u16"
+        },
+        {
+          "name": "ModType",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Level",
+          "type": "i32"
+        },
+        {
+          "name": "Stat1",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Stat2",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Stat3",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Stat4",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Domain",
+          "type": "enumrow"
+        },
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "GenerationType",
+          "type": "enumrow"
+        },
+        {
+          "name": "Families",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "Stat1Value",
+          "type": "i32",
+          "interval": true
+        },
+        {
+          "name": "Stat2Value",
+          "type": "i32",
+          "interval": true
+        },
+        {
+          "name": "Stat3Value",
+          "type": "i32",
+          "interval": true
+        },
+        {
+          "name": "Stat4Value",
+          "type": "i32",
+          "interval": true
+        },
+        {
+          "name": "SpawnWeight_Tags",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "i32",
+          "array": true
+        },
+        {
+          "name": "Tags",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "GrantedEffectsPerLevel",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "AuraFlags",
+          "type": "enumrow",
+          "array": true
+        },
+        {
+          "name": "MonsterMetadata",
+          "type": "string"
+        },
+        {
+          "name": "MonsterKillAchievements",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "ChestModType",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "Stat5Value",
+          "type": "i32",
+          "interval": true
+        },
+        {
+          "name": "Stat5",
+          "type": "foreignrow"
+        },
+        {
+          "name": "FullAreaClear_AchievementItems",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "AchievementItems",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "GenerationWeight_Tags",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "GenerationWeight_Values",
+          "type": "i32",
+          "array": true
+        },
+        {
+          "name": "ModifyMapsAchievements",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "Stat6Value",
+          "type": "i32",
+          "interval": true
+        },
+        {
+          "name": "Stat6",
+          "type": "foreignrow"
+        },
+        {
+          "name": "MaxLevel",
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "CraftingItemClassRestrictions",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "MonsterOnDeath",
+          "type": "string"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": "HeistAchievements",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "Stat7Value",
+          "type": "i32",
+          "interval": true
+        },
+        {
+          "name": "Stat7",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Stat8",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Stat8Value",
+          "type": "i32",
+          "interval": true
+        },
+        {
+          "name": "InfluenceType",
+          "type": "enumrow"
+        },
+        {
+          "name": "ImplicitTags",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": "BuffTemplate",
+          "type": "foreignrow"
+        },
+        {
+          "name": "ArchnemesisMinionMod",
+          "type": "row"
+        },
+        {
+          "name": "HASH32",
+          "type": "u32"
+        },
+        {
+          "name": "BuffTemplate2",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "RadiusJewelType",
+          "type": "i32"
+        },
+        {
+          "name": "IsEssenceOnlyModifier",
+          "type": "bool"
+        },
+        {
+          "name": "SpawnLevel_Override",
+          "type": "i32"
+        },
+        {
+          "name": "SpawnWeight_Values",
+          "type": "i32",
+          "array": true
+        }
+      ],
+      "clients": {
+        "intl": {
+          "columns": [
+            {
+              "name": "Id",
+              "type": "string"
+            },
+            {
+              "name": "HASH16",
+              "type": "u16"
+            },
+            {
+              "name": "ModType",
+              "type": "foreignrow"
+            },
+            {
+              "name": "Level",
+              "type": "i32"
+            },
+            {
+              "name": "Stat1",
+              "type": "foreignrow"
+            },
+            {
+              "name": "Stat2",
+              "type": "foreignrow"
+            },
+            {
+              "name": "Stat3",
+              "type": "foreignrow"
+            },
+            {
+              "name": "Stat4",
+              "type": "foreignrow"
+            },
+            {
+              "name": "Domain",
+              "type": "enumrow"
+            },
+            {
+              "name": "Name",
+              "type": "string"
+            },
+            {
+              "name": "GenerationType",
+              "type": "enumrow"
+            },
+            {
+              "name": "Families",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "Stat1Value",
+              "type": "i32",
+              "interval": true
+            },
+            {
+              "name": "Stat2Value",
+              "type": "i32",
+              "interval": true
+            },
+            {
+              "name": "Stat3Value",
+              "type": "i32",
+              "interval": true
+            },
+            {
+              "name": "Stat4Value",
+              "type": "i32",
+              "interval": true
+            },
+            {
+              "name": "SpawnWeight_Tags",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": null,
+              "type": "i32",
+              "array": true
+            },
+            {
+              "name": "Tags",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "GrantedEffectsPerLevel",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "AuraFlags",
+              "type": "enumrow",
+              "array": true
+            },
+            {
+              "name": null,
+              "type": "i32",
+              "array": true
+            },
+            {
+              "name": "MonsterMetadata",
+              "type": "string"
+            },
+            {
+              "name": "MonsterKillAchievements",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "ChestModType",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "Stat5Value",
+              "type": "i32",
+              "interval": true
+            },
+            {
+              "name": "Stat5",
+              "type": "foreignrow"
+            },
+            {
+              "name": "FullAreaClear_AchievementItems",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "AchievementItems",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "GenerationWeight_Tags",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "GenerationWeight_Values",
+              "type": "i32",
+              "array": true
+            },
+            {
+              "name": "ModifyMapsAchievements",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "Stat6Value",
+              "type": "i32",
+              "interval": true
+            },
+            {
+              "name": "Stat6",
+              "type": "foreignrow"
+            },
+            {
+              "name": "MaxLevel",
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "bool"
+            },
+            {
+              "name": "CraftingItemClassRestrictions",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "MonsterOnDeath",
+              "type": "string"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": "HeistAchievements",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "Stat7Value",
+              "type": "i32",
+              "interval": true
+            },
+            {
+              "name": "Stat7",
+              "type": "foreignrow"
+            },
+            {
+              "name": "Stat8",
+              "type": "foreignrow"
+            },
+            {
+              "name": "Stat8Value",
+              "type": "i32",
+              "interval": true
+            },
+            {
+              "name": "InfluenceType",
+              "type": "enumrow"
+            },
+            {
+              "name": "ImplicitTags",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": null,
+              "type": "bool"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": "BuffTemplate",
+              "type": "foreignrow"
+            },
+            {
+              "name": "ArchnemesisMinionMod",
+              "type": "row"
+            },
+            {
+              "name": "HASH32",
+              "type": "u32"
+            },
+            {
+              "name": "BuffTemplate2",
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": null,
+              "type": "i32"
+            },
+            {
+              "name": null,
+              "type": "foreignrow",
+              "array": true
+            },
+            {
+              "name": "RadiusJewelType",
+              "type": "i32"
+            },
+            {
+              "name": "IsEssenceOnlyModifier",
+              "type": "bool"
+            },
+            {
+              "name": "SpawnLevel_Override",
+              "type": "i32"
+            },
+            {
+              "name": "SpawnWeight_Values",
+              "type": "i32",
+              "array": true
+            }
+          ],
+          "source": {
+            "project": "poe-tool-dev/dat-schema",
+            "path": "dat-schema/poe2/_Core.gql",
+            "blob_oid": "ca5e2594ed6a8262a9eb33fc9d3cd82a3e40bd33",
+            "url": "https://api.github.com/repos/poe-tool-dev/dat-schema/git/blobs/ca5e2594ed6a8262a9eb33fc9d3cd82a3e40bd33",
+            "reason": "国际服当前 Mods 行宽为 693，国服为 677；两侧分别使用对应 schema，同客户端英文与中文按内部 ID 验证"
+          }
+        }
+      }
+    },
+    {
+      "name": "PassiveSkills",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "Icon_DDSFile",
+          "type": "string"
+        },
+        {
+          "name": "Stats",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "Stat1Value",
+          "type": "i32"
+        },
+        {
+          "name": "Stat2Value",
+          "type": "i32"
+        },
+        {
+          "name": "Stat3Value",
+          "type": "i32"
+        },
+        {
+          "name": "Stat4Value",
+          "type": "i32"
+        },
+        {
+          "name": "PassiveSkillGraphId",
+          "type": "u16"
+        },
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "Characters",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "IsKeystone",
+          "type": "bool"
+        },
+        {
+          "name": "IsNotable",
+          "type": "bool"
+        },
+        {
+          "name": "FlavourText",
+          "type": "string"
+        },
+        {
+          "name": "IsJustIcon",
+          "type": "bool"
+        },
+        {
+          "name": "AchievementItem",
+          "type": "foreignrow"
+        },
+        {
+          "name": "IsJewelSocket",
+          "type": "bool"
+        },
+        {
+          "name": "Ascendancy",
+          "type": "foreignrow"
+        },
+        {
+          "name": "IsAscendancyStartingNode",
+          "type": "bool"
+        },
+        {
+          "name": "ReminderStrings",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "SkillPointsGranted",
+          "type": "i32"
+        },
+        {
+          "name": "IsMultipleChoice",
+          "type": "bool"
+        },
+        {
+          "name": "IsMultipleChoiceOption",
+          "type": "bool"
+        },
+        {
+          "name": "Stat5Value",
+          "type": "i32"
+        },
+        {
+          "name": "PassiveSkillBuffs",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "IsAnointmentOnly",
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": "IsExpansion",
+          "type": "bool"
+        },
+        {
+          "name": "IsProxyPassive",
+          "type": "bool"
+        },
+        {
+          "name": "SkillType",
+          "type": "enumrow"
+        },
+        {
+          "name": "MasteryGroup",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Group",
+          "type": "foreignrow"
+        },
+        {
+          "name": "SoundEffect",
+          "type": "foreignrow"
+        },
+        {
+          "name": "AtlasNodeGroup",
+          "type": "string"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "AudioEvent",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "IsAttribute",
+          "type": "bool"
+        },
+        {
+          "name": "AtlasSubTree",
+          "type": "foreignrow"
+        },
+        {
+          "name": "IsRootOfAtlasTree",
+          "type": "bool"
+        },
+        {
+          "name": "GrantedSkill",
+          "type": "foreignrow"
+        },
+        {
+          "name": "WeaponPointsGranted",
+          "type": "i32"
+        },
+        {
+          "name": "IsFree",
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "UnlockedBy",
+          "type": "row",
+          "array": true
+        },
+        {
+          "name": "VisibleForAscendancy",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "NodeFrameArt",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "BrequelTree",
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "bool"
+        },
+        {
+          "name": "Stat6Value",
+          "type": "i32"
+        },
+        {
+          "name": "Stat7Value",
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": null,
+          "type": "foreignrow"
+        },
+        {
+          "name": null,
+          "type": "i32"
+        },
+        {
+          "name": "QuestFlag",
+          "type": "foreignrow"
+        },
+        {
+          "name": "Requirement",
+          "type": "foreignrow"
+        }
+      ]
+    },
+    {
+      "name": "SkillGemInfo",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "Description",
+          "type": "string"
+        },
+        {
+          "name": "VideoURL1",
+          "type": "string"
+        },
+        {
+          "name": "SkillGemsKey",
+          "type": "foreignrow"
+        },
+        {
+          "name": "VideoURL2",
+          "type": "string"
+        },
+        {
+          "name": "CharactersKeys",
+          "type": "foreignrow",
+          "array": true
+        }
+      ]
+    },
+    {
+      "name": "SupportGemFamily",
+      "columns": [
+        {
+          "name": "Id",
+          "type": "string"
+        },
+        {
+          "name": "Text",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Words",
+      "identityField": "HASH32",
+      "contextFields": ["Wordlist", "Text"],
+      "nameRoles": { "1": "prefix", "2": "suffix", "6": "unique" },
+      "columns": [
+        {
+          "name": "Wordlist",
+          "type": "enumrow"
+        },
+        {
+          "name": "Text",
+          "type": "string"
+        },
+        {
+          "name": "SpawnWeight_Tags",
+          "type": "foreignrow",
+          "array": true
+        },
+        {
+          "name": "SpawnWeight_Values",
+          "type": "i32",
+          "array": true
+        },
+        {
+          "name": "HASH32",
+          "type": "u32"
+        },
+        {
+          "name": "Text2",
+          "type": "string"
+        },
+        {
+          "name": "Inflection",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

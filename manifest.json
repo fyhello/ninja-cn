@@ -1,0 +1,72 @@
+{
+  "manifest_version": 3,
+  "name": "POE Ninja & 官方市集三语增强翻译",
+  "version": "0.2.14",
+  "description": "Switch poe.ninja and official trade between English, Simplified Chinese, and Traditional Chinese using local dictionaries.",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": [
+    "https://poe.ninja/*",
+    "https://pathofexile.com/*",
+    "https://*.pathofexile.com/*"
+  ],
+  "action": {
+    "default_title": "POE Ninja & 官方市集三语增强翻译",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://poe.ninja/*"],
+      "js": ["lib/translation-core.js", "lib/favorite-manager.js", "content.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://pathofexile.com/*",
+        "https://*.pathofexile.com/*"
+      ],
+      "js": [
+        "trade/trade-pob-hook.js",
+        "trade/trade-standalone.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "https://pathofexile.com/*",
+        "https://*.pathofexile.com/*"
+      ],
+      "js": [
+        "lib/translation-core.js",
+        "trade/trade-dom.js",
+        "trade/trade-pob-converter.js",
+        "trade/trade-pob-ui.js",
+        "trade/trade-content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "data/poe2.json",
+        "data/poe2.json.gz",
+        "trade/trade-loader.js",
+        "trade/trade-standalone.js.gz",
+        "trade/trade-standalone.js",
+        "trade/trade-fetch-engine.js",
+        "trade/trade-search-helper.js",
+        "trade/trade-hook-main.js",
+        "trade/trade-pob-hook.js"
+      ],
+      "matches": [
+        "https://pathofexile.com/*",
+        "https://*.pathofexile.com/*",
+        "https://poe.ninja/*"
+      ]
+    }
+  ]
+}

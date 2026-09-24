@@ -1,0 +1,47 @@
+:root {
+  color: #202124;
+  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 250px;
+  background: #f7f8f8;
+}
+
+main {
+  padding: 14px;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.language-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+
+button {
+  min-height: 32px;
+  border: 1px solid #b9bec2;
+  border-radius: 4px;
+  background: #ffffff;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+}
+
+button:hover {
+  border-color: #346f90;
+}
+
+button.active {
+  border-color: #216f99;
+  background: #216f99;
+  color: #ffffff;
+}

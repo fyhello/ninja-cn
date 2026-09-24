@@ -1,0 +1,20 @@
+{
+  "name": "ninja-poe2-extension",
+  "version": "0.2.14",
+  "description": "POE Ninja & 官方市集三语增强翻译 Chrome 扩展",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyhello/ninja-cn.git"
+  },
+  "type": "module",
+  "scripts": {
+    "extract:upstream": "python tools/upstream-builder/build.py",
+    "extract:native": "node tools/native-translations/collect.mjs",
+    "translations:review": "node tools/native-translations/update.mjs review",
+    "translations:accept": "node tools/native-translations/update.mjs accept",
+    "build:dictionary": "node tools/build-all.mjs --dictionary-only",
+    "build:dict": "node tools/build-all.mjs",
+    "validate": "node tools/validate-extension.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}

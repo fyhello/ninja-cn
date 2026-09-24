@@ -1,0 +1,897 @@
+{
+  "table": "HeistObjectives",
+  "key": "_index",
+  "columns": [
+    "Client"
+  ],
+  "entries": [
+    {
+      "id": null,
+      "index": 0,
+      "columns": {
+        "Client": [
+          {
+            "en": "Bazira",
+            "zh": "贝兹拉"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 1,
+      "columns": {
+        "Client": [
+          {
+            "en": "Tsvet Matvei",
+            "zh": "茨维特·马维"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 2,
+      "columns": {
+        "Client": [
+          {
+            "en": "Bazira",
+            "zh": "贝兹拉"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 3,
+      "columns": {
+        "Client": [
+          {
+            "en": "Count Geonor",
+            "zh": "吉恩诺伯爵"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 4,
+      "columns": {
+        "Client": [
+          {
+            "en": "The Crimson Scribe",
+            "zh": "红衣书吏"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 5,
+      "columns": {
+        "Client": [
+          {
+            "en": "The Midnight Tinkerer",
+            "zh": "午夜修补匠"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 6,
+      "columns": {
+        "Client": [
+          {
+            "en": "Aline Koltz",
+            "zh": "艾琳·科尔茨"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 7,
+      "columns": {
+        "Client": [
+          {
+            "en": "Tsvet Matvei",
+            "zh": "茨维特·马维"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 8,
+      "columns": {
+        "Client": [
+          {
+            "en": "Administrator Qotra",
+            "zh": "科塔拉总管"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 9,
+      "columns": {
+        "Client": [
+          {
+            "en": "Count Geonor",
+            "zh": "吉恩诺伯爵"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 10,
+      "columns": {
+        "Client": [
+          {
+            "en": "Nishem",
+            "zh": "尼色姆"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 11,
+      "columns": {
+        "Client": [
+          {
+            "en": "Aline Koltz",
+            "zh": "艾琳·科尔茨"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 12,
+      "columns": {
+        "Client": [
+          {
+            "en": "Count Geonor",
+            "zh": "吉恩诺伯爵"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 13,
+      "columns": {
+        "Client": [
+          {
+            "en": "Marcine Clavus",
+            "zh": "马凯恩·克拉乌斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 14,
+      "columns": {
+        "Client": [
+          {
+            "en": "Marcine Clavus",
+            "zh": "马凯恩·克拉乌斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 15,
+      "columns": {
+        "Client": [
+          {
+            "en": "Marcine Clavus",
+            "zh": "马凯恩·克拉乌斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 16,
+      "columns": {
+        "Client": [
+          {
+            "en": "Marcine Clavus",
+            "zh": "马凯恩·克拉乌斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 17,
+      "columns": {
+        "Client": [
+          {
+            "en": "Marcine Clavus",
+            "zh": "马凯恩·克拉乌斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 18,
+      "columns": {
+        "Client": [
+          {
+            "en": "Selwyn Eddard",
+            "zh": "塞尔温·艾德"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 19,
+      "columns": {
+        "Client": [
+          {
+            "en": "Kondor Larcius",
+            "zh": "康多·拉修斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 20,
+      "columns": {
+        "Client": [
+          {
+            "en": "Grond Ironeye",
+            "zh": "格隆德·铁眼"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 21,
+      "columns": {
+        "Client": [
+          {
+            "en": "Bazira",
+            "zh": "贝兹拉"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 22,
+      "columns": {
+        "Client": [
+          {
+            "en": "Bazira",
+            "zh": "贝兹拉"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 23,
+      "columns": {
+        "Client": [
+          {
+            "en": "Kondor Larcius",
+            "zh": "康多·拉修斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 24,
+      "columns": {
+        "Client": [
+          {
+            "en": "The Crimson Scribe",
+            "zh": "红衣书吏"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 25,
+      "columns": {
+        "Client": [
+          {
+            "en": "Administrator Qotra",
+            "zh": "科塔拉总管"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 26,
+      "columns": {
+        "Client": [
+          {
+            "en": "Administrator Qotra",
+            "zh": "科塔拉总管"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 27,
+      "columns": {
+        "Client": [
+          {
+            "en": "The Crimson Scribe",
+            "zh": "红衣书吏"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 28,
+      "columns": {
+        "Client": [
+          {
+            "en": "Remus Hestor",
+            "zh": "拉姆斯·赫斯托"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 29,
+      "columns": {
+        "Client": [
+          {
+            "en": "Nishem",
+            "zh": "尼色姆"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 30,
+      "columns": {
+        "Client": [
+          {
+            "en": "The Crimson Scribe",
+            "zh": "红衣书吏"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 31,
+      "columns": {
+        "Client": [
+          {
+            "en": "Anton Laffrey",
+            "zh": "安东·拉弗里"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 32,
+      "columns": {
+        "Client": [
+          {
+            "en": "Tsvet Matvei",
+            "zh": "茨维特·马维"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 33,
+      "columns": {
+        "Client": [
+          {
+            "en": "Kondor Larcius",
+            "zh": "康多·拉修斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 34,
+      "columns": {
+        "Client": [
+          {
+            "en": "The Midnight Tinkerer",
+            "zh": "午夜修补匠"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 35,
+      "columns": {
+        "Client": [
+          {
+            "en": "Bazira",
+            "zh": "贝兹拉"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 36,
+      "columns": {
+        "Client": [
+          {
+            "en": "Kondor Larcius",
+            "zh": "康多·拉修斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 37,
+      "columns": {
+        "Client": [
+          {
+            "en": "The Crimson Scribe",
+            "zh": "红衣书吏"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 38,
+      "columns": {
+        "Client": [
+          {
+            "en": "Administrator Qotra",
+            "zh": "科塔拉总管"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 39,
+      "columns": {
+        "Client": [
+          {
+            "en": "Cardinal Uthelius",
+            "zh": "枢机主教乌特留斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 40,
+      "columns": {
+        "Client": [
+          {
+            "en": "Castor Pollinius III",
+            "zh": "卡斯特·波利留斯三世"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 47,
+      "columns": {
+        "Client": [
+          {
+            "en": "Karst",
+            "zh": "卡斯特"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 48,
+      "columns": {
+        "Client": [
+          {
+            "en": "Karst",
+            "zh": "卡斯特"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 49,
+      "columns": {
+        "Client": [
+          {
+            "en": "Karst",
+            "zh": "卡斯特"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 50,
+      "columns": {
+        "Client": [
+          {
+            "en": "Tibbs",
+            "zh": "特卜斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 51,
+      "columns": {
+        "Client": [
+          {
+            "en": "Tibbs",
+            "zh": "特卜斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 52,
+      "columns": {
+        "Client": [
+          {
+            "en": "Huck",
+            "zh": "哈克"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 53,
+      "columns": {
+        "Client": [
+          {
+            "en": "Huck",
+            "zh": "哈克"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 54,
+      "columns": {
+        "Client": [
+          {
+            "en": "Vinderi",
+            "zh": "温德利"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 55,
+      "columns": {
+        "Client": [
+          {
+            "en": "Vinderi",
+            "zh": "温德利"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 56,
+      "columns": {
+        "Client": [
+          {
+            "en": "Gianna",
+            "zh": "吉安娜"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 57,
+      "columns": {
+        "Client": [
+          {
+            "en": "Gianna",
+            "zh": "吉安娜"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 58,
+      "columns": {
+        "Client": [
+          {
+            "en": "Tullina",
+            "zh": "图林娜"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 59,
+      "columns": {
+        "Client": [
+          {
+            "en": "Tullina",
+            "zh": "图林娜"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 60,
+      "columns": {
+        "Client": [
+          {
+            "en": "Niles",
+            "zh": "奈尔斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 61,
+      "columns": {
+        "Client": [
+          {
+            "en": "Niles",
+            "zh": "奈尔斯"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 62,
+      "columns": {
+        "Client": [
+          {
+            "en": "Nenet",
+            "zh": "奈尼特"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 63,
+      "columns": {
+        "Client": [
+          {
+            "en": "Nenet",
+            "zh": "奈尼特"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 64,
+      "columns": {
+        "Client": [
+          {
+            "en": "Isla",
+            "zh": "伊斯拉"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 65,
+      "columns": {
+        "Client": [
+          {
+            "en": "Isla",
+            "zh": "伊斯拉"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 66,
+      "columns": {
+        "Client": [
+          {
+            "en": "Isla",
+            "zh": "伊斯拉"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 67,
+      "columns": {
+        "Client": [
+          {
+            "en": "Adiyah",
+            "zh": "艾蒂娅"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 68,
+      "columns": {
+        "Client": [
+          {
+            "en": "Adiyah",
+            "zh": "艾蒂娅"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 69,
+      "columns": {
+        "Client": [
+          {
+            "en": "Adiyah",
+            "zh": "艾蒂娅"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 70,
+      "columns": {
+        "Client": [
+          {
+            "en": "Whakano",
+            "zh": "瓦卡诺"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 71,
+      "columns": {
+        "Client": [
+          {
+            "en": "Whakano",
+            "zh": "瓦卡诺"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 72,
+      "columns": {
+        "Client": [
+          {
+            "en": "Whakano",
+            "zh": "瓦卡诺"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 73,
+      "columns": {
+        "Client": [
+          {
+            "en": "Faustus",
+            "zh": "浮士德"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 74,
+      "columns": {
+        "Client": [
+          {
+            "en": "Faustus",
+            "zh": "浮士德"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 75,
+      "columns": {
+        "Client": [
+          {
+            "en": "Faustus",
+            "zh": "浮士德"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 76,
+      "columns": {
+        "Client": [
+          {
+            "en": "Kurai",
+            "zh": "科莱"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 77,
+      "columns": {
+        "Client": [
+          {
+            "en": "Kurai",
+            "zh": "科莱"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 78,
+      "columns": {
+        "Client": [
+          {
+            "en": "Kurai",
+            "zh": "科莱"
+          }
+        ]
+      }
+    },
+    {
+      "id": null,
+      "index": 79,
+      "columns": {
+        "Client": [
+          {
+            "en": "Kurai",
+            "zh": "科莱"
+          }
+        ]
+      }
+    }
+  ]
+}
